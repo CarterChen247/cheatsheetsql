@@ -3,13 +3,27 @@
 相關詞
 #pivot, #row to column
 ```
+
+
+---
+
+
 ##問題概述
-將一列一列的資料轉換成以欄位顯示的表格
+將一列一列的資料轉換成以欄位顯示的表格(表1→表2)
 
+
+表1：myTable
 >![](origin_pivot.png)
->![](arrow.png)
 
+表2：結果
 >![](result_pivot.png)
+
+
+---
+
+
+  
+##Query語法
 
 ```sql
 SELECT 
@@ -21,3 +35,12 @@ FROM
   myTable
 ```
 
+
+
+---
+
+##範例解析
+```sql
+MAX(IF(pid=1, order, 0)) ApplePie,
+```
+表示當pid中的值=1時，在ApplePie(自定義)欄位中填入order欄位中的資料。
