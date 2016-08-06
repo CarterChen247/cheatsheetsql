@@ -1,7 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
-* [First Chapter](chapter1.md)
+* [暫時不知道怎麼分類的系列系列](chapter1.md)
    * [行列轉換](xing_lie_zhuan_huan.md)
    * [將NULL替代為0](jiang_null_ti_dai_wei_0.md)
 * 要我算不如給機器算系列
