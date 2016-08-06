@@ -3,7 +3,7 @@
 * [Introduction](README.md)
 * [To Be or Not to Be 系列](to_be_or_not_to_be_series.md)
    * [如果資料存在，就刪除](if_exist_then_delete.md)
-   * 如果資料不存在，才新增（存在就略過）
+   * [如果資料不存在，才新增（存在就略過）](if_not_exist_then_insert.md)
    * 如果資料不存在，才新增（存在就更新）
    * 如果資料不存在，才更新
 * 要我算不如給機器算系列
