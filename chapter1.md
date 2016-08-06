@@ -13,10 +13,10 @@
 
 
 表1：myTable
->![](origin_pivot.png)
+![](origin_pivot.png)
 
 表2：結果
->![](result_pivot.png)
+![](result_pivot.png)
 
 
 ---
@@ -41,6 +41,6 @@ FROM
 
 ##範例解析
 ```sql
-MAX(IF(pid=1, order, 0)) ApplePie,
+MAX(IF(pid=1, order, 0)) ApplePie
 ```
 表示當pid中的值=1時，在ApplePie(自定義)欄位中填入order欄位中的資料。
