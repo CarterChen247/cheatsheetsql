@@ -11,5 +11,4 @@
    * [計算排名](ranking_calculation.md)
    * [計算單一值出現次數](occurrence_calculation.md)
    * [計算每篇文章的回應數量](comment_calculation.md)
-   * 123
 
