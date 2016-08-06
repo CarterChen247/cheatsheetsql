@@ -2,7 +2,7 @@
 
 ```bash
 #相關詞
-#
+#IF NOT EXIST, #INSERT, #UPDATE
 ```
 
 
@@ -10,6 +10,7 @@
 
 
 ##問題概述
+先找找看資料表中有沒有這筆資料，不然就新增；但如果存在的話，就更新!
 通常用於一次更動多筆資料的時機
 
 
@@ -22,9 +23,9 @@
 
 ```sql
 INSERT INTO
-  user(phone)
+  user(name, phone)
 VALUES
-  (`1234567890`)
+  (`Adam`, `1234567890`)
 ON DUPLICATE KEY UPDATE
   phone = `1234567890`
 ```
