@@ -9,7 +9,7 @@
 * [To Be or Not to Be 系列](to_be_or_not_to_be_series.md)
    * [如果存在，就刪除](if_exist_then_delete.md)
 * [Appendix](appendix.md)
-* [計算每篇文章的回應數量](comment_calculation.md)
 * 要我算不如給機器算系列
+   * [計算每篇文章的回應數量](comment_calculation.md)
    * 123
 
