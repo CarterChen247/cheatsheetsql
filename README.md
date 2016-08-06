@@ -1,6 +1,4 @@
-My Awesome Book
-=======
+本書收錄SQL實用小撇步，讓你偷吃步!  
+內容輕薄短小容易吸收，一天一例擁抱健康人生<3
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
-
-Like 計算
+~~（說是這樣說，其實只是我寫來方便我自己用的）~~
