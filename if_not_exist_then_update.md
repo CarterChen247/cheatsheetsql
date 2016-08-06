@@ -26,11 +26,11 @@
 
 ```sql
 UPDATE
-  data
+  myTable
 SET
   email = `adam@c8763.com`
 WHERE
-  user = `Adam`
+  name = `Adam`
 AND NOT EXISTS
   (SELECT
     *
@@ -38,7 +38,7 @@ AND NOT EXISTS
      (SELECT
        1
      FROM
-       data
+       myTable
      WHERE
        email = `adam@c8763.com`) temp)
 ```
