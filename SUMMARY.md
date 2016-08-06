@@ -1,7 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
-* 雖然基本但很重要系列
+* [雖然基本但很重要系列](chapter_basic.md)
 * [To Be or Not to Be 系列](to_be_or_not_to_be_series.md)
    * [如果資料存在，就刪除](if_exist_then_delete.md)
    * [如果資料不存在，才新增（存在就略過）](if_not_exist_then_insert.md)
