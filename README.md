@@ -6,4 +6,3 @@
 
 
 
-本書內容可在[Gitbook](https://kazafchen.gitbooks.io/gitbooksql/content/)上觀看
