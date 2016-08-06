@@ -23,7 +23,7 @@
 
 ```sql
 INSERT INTO
-  user(name, phone)
+  myTable(name, phone)
 VALUES
   (`Adam`, `1234567890`)
 ON DUPLICATE KEY UPDATE
