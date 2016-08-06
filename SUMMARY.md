@@ -1,6 +1,6 @@
 # Summary
 
-* [前言Introduction](README.md)
+* [前言](README.md)
 * [雖然基本但很重要系列](chapter_basic.md)
    * 新增資料
    * 讀取資料
