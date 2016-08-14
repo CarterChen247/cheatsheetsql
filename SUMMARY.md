@@ -19,6 +19,6 @@
    * [行列轉換](xing_lie_zhuan_huan.md)
    * [將NULL替代為0](jiang_null_ti_dai_wei_0.md)
 * [好朋友PHP連攜技能系列](series_php.md)
-   * 從php寫入日期(DATETIME)欄位
+   * 從php寫入日期時間(DATETIME)欄位
 * [Appendix](appendix.md)
 
