@@ -1,6 +1,7 @@
 # Summary
 
 * [前言](README.md)
+   * MySQL的好朋友PHP食用
 * [雖然基本但很重要系列](chapter_basic.md)
    * [新增資料](insert.md)
    * [讀取資料](select.md)
