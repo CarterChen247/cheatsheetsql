@@ -4,7 +4,7 @@
 * [雖然基本但很重要系列](chapter_basic.md)
    * [新增資料](insert.md)
    * [讀取資料](select.md)
-   * 更新資料
+   * [更新資料](update.md)
    * 刪除資料
 * [To Be or Not to Be 系列](to_be_or_not_to_be_series.md)
    * [如果資料存在，就刪除](if_exist_then_delete.md)
