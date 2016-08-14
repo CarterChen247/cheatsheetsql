@@ -1,7 +1,6 @@
 # Summary
 
 * [前言](README.md)
-   * MySQL的好朋友PHP食用
 * [雖然基本但很重要系列](chapter_basic.md)
    * [新增資料](insert.md)
    * [讀取資料](select.md)
@@ -19,5 +18,6 @@
 * [暫時不知道怎麼分類的系列系列](chapter1.md)
    * [行列轉換](xing_lie_zhuan_huan.md)
    * [將NULL替代為0](jiang_null_ti_dai_wei_0.md)
+* MySQL的好朋友PHP食用
 * [Appendix](appendix.md)
 
