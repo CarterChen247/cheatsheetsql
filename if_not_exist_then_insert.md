@@ -31,20 +31,18 @@
 INSERT INTO
   myTable(user, product)
 SELECT
-  `Adam`, `cake`
+  *
 FROM
-  DUAL
-WHERE NOT EXIST
+  (SELECT user, product) AS tmp
+WHERE NOT EXISTS
   (SELECT
-    1
+    user
   FROM
     myTable
   WHERE
-    user = `Adam`
-  AND
-    product = `cake`
-  LIMIT 
-    1)
+	user = 'Adam')
+LIMIT
+  1";
 ```
 
 
@@ -52,5 +50,4 @@ WHERE NOT EXIST
 ---
 
 ##範例解析
-範例中的`DUAL`是一個虛擬的資料表  
-內容就是WHERE後面接的查詢內容囉
+這是INSERT INTO和SELECT的合體用法喔
